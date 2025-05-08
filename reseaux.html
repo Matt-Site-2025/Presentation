@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Réseaux & Publications</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background: linear-gradient(to bottom right, #e0f2fe, #f0f9ff);
+    }
+
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 1s ease-out forwards;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body class="text-gray-800 font-sans">
+
+  <section class="py-12 px-6 max-w-6xl mx-auto">
+
+    <!-- Navigation -->
+    <ul class="mb-8 flex space-x-4">
+      <li><a href="portofolio.html" class="text-blue-600 font-medium hover:underline">← Retour à l'accueil</a></li>
+    </ul>
+
+    <!-- Titre -->
+    <h1 class="text-5xl font-bold mb-6 text-center text-blue-500 drop-shadow-md fade-in" style="animation-delay: 0.1s;">📸 Réseaux & Publications</h1>
+
+    <!-- Texte à venir -->
+    <p class="text-center text-lg text-gray-700 italic mb-12 fade-in" style="animation-delay: 0.3s;">
+      Section dédiée à mon compte Instagram créatif – disponible très bientôt !
+    </p>
+
+    <!-- Grille de teasers -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+      
+      <!-- Image teaser 1 -->
+      <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition fade-in" style="animation-delay: 0.5s;">
+        <div class="aspect-square overflow-hidden">
+          <img src="katana_lego1.jpg" class="w-full h-full object-cover" />
+        </div>
+      </div>
+
+      <!-- Image teaser 2 -->
+      <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition fade-in" style="animation-delay: 0.7s;">
+        <div class="aspect-square overflow-hidden">
+          <img src="katana_lego2.jpg" class="w-full h-full object-cover" />
+        </div>
+      </div>
+
+      <!-- Image teaser 3 -->
+      <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition fade-in" style="animation-delay: 0.9s;">
+        <div class="aspect-square overflow-hidden">
+          <img src="sniper_1.jpg" class="w-full h-full object-cover" />
+        </div>
+      </div>
+
+      <!-- Image teaser 4 -->
+      <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition fade-in" style="animation-delay: 1.1s;">
+        <div class="aspect-square overflow-hidden">
+          <img src="sniper_2.jpg" class="w-full h-full object-cover" />
+        </div>
+      </div>
+
+    </div> 
+
+  </section>
+
+</body>
+</html>
